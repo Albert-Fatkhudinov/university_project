@@ -49,7 +49,7 @@ html, body {
     padding: 15px;
 }
 
-.wrap-login {
+.wrap-forgot {
     width: 500px;
     height: 480px;
     background: rgb(245, 242, 242);
@@ -69,17 +69,17 @@ html, body {
     font-size: 35px;
 }
 
-.login-form-validate {
+.forgot-form-validate {
     margin: auto;
     margin-top: 10px;
     width: 85%;
 }
 
-#form-create-account {
+#forgot-password-href {
     width: 100%;
     text-align: center;
     background-color: rgba(12, 182, 117, 0.2);
-    margin-top: 50px;
+    margin-top: 30px;
     height: 40px;
 }
 
@@ -92,4 +92,15 @@ html, body {
     font-size: smaller;
     margin: auto;
     padding-left: 250px;
+}
+
+.forgot-password-response {
+    background-color: rgba(12, 182, 117, 0.2);
+    width: 100%;
+    margin: 10px;
+}
+
+#password-response{
+    text-align: center;
+    margin: auto;
 }

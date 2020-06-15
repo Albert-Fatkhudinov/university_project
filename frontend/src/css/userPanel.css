@@ -15,7 +15,7 @@ html, body {
     -moz-animation: AnimationName 35s ease infinite;
     animation: AnimationName 35s ease infinite;
     font-family: 'FranchiseRegular','Arial Narrow',Arial ,sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 @-webkit-keyframes AnimationName {
@@ -33,66 +33,11 @@ html, body {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-  
 
-.container {
-    width: 100%;  
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-}
-
-.wrap-login {
-    width: 500px;
-    height: 490px;
-    background: rgb(245, 242, 242);
-    border-radius: 20px;
-    overflow: hidden;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.form-title {
-    text-align: center;
-    font-size: 35px;
-}
-
-.login-form-validate {
-    margin: auto;
-    margin-top: 10px;
-    width: 85%;
-}
-
-#form-create-account {
-    width: 100%;
-    text-align: center;
-    background-color: rgba(12, 182, 117, 0.2);
-    margin-top: 65px;
-    height: 40px;
-}
-
-#create-account {
-    color: limegreen;
-}
-
-#forgotPassword {
-    color: rgb(114, 104, 104);
-    font-size: smaller;
+video {
     margin: auto;
 }
 
-
-
-
+p {
+    text-align: center;
+}
